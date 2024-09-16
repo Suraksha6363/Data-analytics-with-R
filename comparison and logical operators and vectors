@@ -1,0 +1,58 @@
+#to check whether two strings are equal or not
+{
+  val1=(readline("enter the first string:"))
+  val2=(readline("enter the second string:"))
+}
+paste(val1==val2) 
+
+#to check whether given numbers are smaller or greater to each other
+a=7L
+b=9L
+c=10L
+output=(a>b&a>c)
+output
+
+#AND (&) and OR (|) and NOT (!) operators
+(!0)
+(!9)
+(!8>9)
+(!1&0)
+(!a)
+
+#write a program to check if a student is eligible for placement.Take the input from the student as the current CGPA as well as the certification is done
+#check for the same using logical AND and logical OR gate
+{
+  cgp=as.double(readline("enter your cgpa:"))
+  cer=readline("any certificaion done?(Yes/No)")
+}
+eleg=((cgp>8.0)&&(cer=="Yes"))
+eleg
+eleg=((cgp>8.0)||(cer=="Yes"))
+eleg
+
+#vectors
+#creating a vector and printing it 
+vec1=c(1:11)
+vec1
+
+#finding the sum of vector 
+vec1=c(1:11)
+sum(vec1)
+
+#finding the class of vector 
+vec2=c(6L,"hii","9=9i",8,9,"TRUE")
+class(vec2)
+
+h=9L
+
+#finding length of a vector 
+vec2=c(6L,"hii","9=9i",8,9,"TRUE")
+length(vec2)
+
+#to delete vectors
+vec3=c(1:5)
+vec3
+rm(vec3)
+vec3<-NULL
+vec3
+
